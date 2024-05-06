@@ -1,0 +1,31 @@
+model_list:
+  - model_name: Phi-3-mini-128k-instruct
+    litellm_params:
+      model: openai/microsoft/Phi-3-mini-128k-instruct
+      api_base: http://localhost:8005/v1
+      api_key: 11ABI3K6Y0a3Ayrmg72GtS
+      api_version: "2024-05-06-locai"
+  - model_name: Meta-Llama-3-8B-Instruct
+    litellm_params:
+      model: openai/meta-llama/Meta-Llama-3-8B-Instruct
+      api_base: http://localhost:8006/v1
+      api_key: 11ABI3K6YS0g0a3Aymg72
+      api_version: "2024-05-06-locai"
+  - model_name: Mixtral-8x7B-Instruct-v0.1
+    litellm_params:
+      model: openai/mistralai/Mixtral-8x7B-Instruct-v0.1
+      api_base: http://localhost:8007/v1
+      api_key: 11AB6YS0g0a3Aymg72Fb9
+      api_version: "2024-05-06-locai"
+  - model_name: jais-30b-chat-v3
+    litellm_params:
+      model: openai/core42/jais-30b-chat-v3
+      api_base: http://localhost:8008/v1
+      api_key: 11ABnF50g0aml8mg72Fb9
+      api_version: "2024-05-06-locai"
+  - model_name: Meta-Llama-3-70B-Instruct
+    litellm_params:
+      model: openai/meta-llama/Meta-Llama-3-70B-Instruct
+      api_base: https://llama80b.ngrok.app/v1
+      api_key: 11ABnF50g0amaaaa72Fb9
+      api_version: "2024-05-06-locai"
