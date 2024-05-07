@@ -16,7 +16,7 @@ const Clerk = memo(({ children }: PropsWithChildren) => {
   const localization = useMemo(() => getResourceBundle(language, 'clerk'), [language]);
 
   return (
-    <ClerkProvider appearance={appearance} localization={localization}>
+    <ClerkProvider appearance={appearance} localization={localization} signInFallbackRedirectUrl="/chat" signUpFallbackRedirectUrl="/chat" >
       {children}
       <UserUpdater />
     </ClerkProvider>
