@@ -10,7 +10,7 @@ import migration from './migration';
 import modelProvider from './modelProvider';
 import plugin from './plugin';
 import setting from './setting';
-import welcome from './welcome';
+// import welcome from './welcome';
 
 const resources = {
   auth,
@@ -25,7 +25,7 @@ const resources = {
   plugin,
   setting,
   tool,
-  welcome,
+  // welcome,
 } as const;
 
 export default resources;

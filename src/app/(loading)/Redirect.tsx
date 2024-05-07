@@ -17,11 +17,12 @@ const Redirect = memo(() => {
 
   useEffect(() => {
     checkHasConversation().then((hasData) => {
-      if (hasData) {
-        router.replace('/chat');
-      } else {
-        router.replace('/welcome');
-      }
+      router.replace('/chat');
+      // if (hasData) {
+      //   router.replace('/chat');
+      // } else {
+      //   router.replace('/welcome');
+      // }
     });
   }, []);
 
